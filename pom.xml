@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.booking</groupId>
 	<artifactId>common-service</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.6</version>
 	<name>common-service</name>
 	<description>common-service for booking application</description>
 	<properties>
@@ -21,10 +21,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -48,21 +44,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-boot-starter</artifactId>
 			<version>${swagger.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>2.0.1.Final</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
